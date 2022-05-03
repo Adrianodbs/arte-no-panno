@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+@import url(./header.css);
+@import url(./produtos.css);
+@import url(./vestir-arte.css);
+@import url(./footer.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --laranja: #f79264;
+  --verde: #0E5A43;
+  --cinza-claro: #E9E9E9;
+  --cinza-escuro: rgb(56, 56, 56);
+}

@@ -1,0 +1,30 @@
+.vestir-arte{
+  background-color: var(--laranja);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vestir-arte img{
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.vestir-arte img:hover{
+  opacity: .8;
+}
+
+.vestir-arte__1, .vestir-arte__2{
+  display: flex;
+  gap: 100px;
+}
+
+.vestir-arte__1 img:last-child,
+.vestir-arte__2 img:last-child{
+  margin-top: 80px;
+}
