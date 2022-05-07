@@ -51,3 +51,24 @@
   color: var(--verde);
   font-weight: bold;
 }
+
+@media screen and (max-width:1000px){
+  .produtos__card-imagem.hide{
+    display: none;
+  }
+}
+
+@media screen and (max-width:650px){
+  .produtos__listagem li{
+    font-size: 14px;
+  }
+
+  .produtos__listagem ul{
+    gap: 30px;
+  }
+
+  .produtos__card-imagem img{
+    width: 150px;
+    height: 150px;
+  }
+}

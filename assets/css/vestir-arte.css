@@ -57,3 +57,9 @@
   cursor: pointer;
   transition: all 1s;
 }
+
+@media screen and (max-width:650px){
+  .container-items, .container-slide, .item, .item img{
+    height: 60vw;
+  }
+}

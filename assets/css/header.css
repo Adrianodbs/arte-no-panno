@@ -170,3 +170,19 @@ header{
 .img-quem-somos img{
   border-radius: 50%;
 }
+
+@media screen and (max-width:1000px){
+  .cabecalho__principal ul{
+    display: none;
+  }
+
+  .cabecalho__informacoes{
+    display: none;
+  }
+}
+
+@media screen and (max-width:650px){
+  .cabecalho__principal img{
+    display: none;
+  }
+}
