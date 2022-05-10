@@ -17,58 +17,14 @@
   </head>
   <body>
     <header>
-      <div class="cabecalho__informacoes">
-        <div class="cabecalho__informacoes-texto">
-          <p>Retire na loja com frete grátis</p>
-          <span
-            >Retire em nossa loja em até 3 dias. <br />
-            <a href="#">Confira as regras</a></span
-          >
-        </div>
-        <div class="cabecalho__informacoes-texto">
-          <p>Troque fácil na loja em até 30 dias</p>
-          <span><a href="#">Troca fácil</a></span>
-        </div>
-        <div class="cabecalho__informacoes-texto">
-          <p><i class="fab fa-whatsapp"></i> Compre pelo Whatsapp</p>
-          <span
-            ><a href="#">Clique aqui</a> e compre diretamente dos nossos
-            vendedores</span
-          >
-        </div>
-      </div>
-
       <div class="cabecalho__principal">
         <img src="./assets/img/logo.png" alt="Logo" />
         <ul>
-          <div class="cabecalho-dropdown">
-            <li>Novidades</li>
-            <div class="cabecalho__principal-dropdown">
-              <img src="./assets/img/p3.jpeg" alt="" />
-              <p>
-                T-shirt branca 100% algodão com bordado manual colorido <br />
-                R$40,00 Produção sob encomenda. <br />
-                Use Arte no Panno!
-              </p>
-            </div>
-          </div>
-
-          <div class="cabecalho-dropdown">
-            <li>Quem somos</li>
-            <div class="cabecalho__principal-dropdown">
-              <img
-                src="./assets/img/quem_somos.png"
-                alt=""
-                class="img-quem-somos"
-              />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </p>
-            </div>
-          </div>
+          <li><a href="#novidades">Novidades</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#vestirarte">Vestir arte</a></li>
+          <li class="quemsomos-hide"><a href="#quemsomos">Quem somos</a></li>
+          <li class="contato-hide"><a href="#contato">Contato</a></li>
         </ul>
         <div class="cabecalho__principal-busca">
           <div class="cabecalho-buscar">
@@ -95,15 +51,19 @@
     </header>
 
     <main>
-      <section class="vestir-arte">
-        <div class="container-slide">
-          <div class="action-button" id="previous">&laquo</div>
-          <div class="container-items" id="container-items"></div>
-          <div class="action-button" id="next">&raquo</div>
+      <section id="novidades">
+        <h1 class="novidades__titulo">Novidades</h1>
+        <div class="novidades__conteudo">
+          <img src="./assets/img/p3.jpeg" alt="" />
+          <p>
+            T-shirt branca 100% algodão com bordado manual colorido <br />
+            R$40,00 Produção sob encomenda. <br />
+            Use Arte no Panno!
+          </p>
         </div>
       </section>
 
-      <section class="produtos">
+      <section class="produtos" id="produtos">
         <nav class="produtos__listagem">
           <ul>
             <li class="produto produto__ativo" id="panos-bordados">
@@ -164,9 +124,34 @@
           </div>
         </div>
       </section>
+
+      <section class="vestir-arte" id="vestirarte">
+        <div class="container-slide">
+          <div class="action-button" id="previous">&laquo</div>
+          <div class="container-items" id="container-items"></div>
+          <div class="action-button" id="next">&raquo</div>
+        </div>
+      </section>
+
+      <section class="quemsomos" id="quemsomos">
+        <h1 class="quemsomos__titulo">Quem Somos</h1>
+        <div class="quemsomos__conteudo">
+          <img
+            src="./assets/img/quem_somos.png"
+            alt=""
+            class="img-quem-somos"
+          />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contato">
       <div class="footer__apresentacao">
         <p>
           Arte no pano: <br />

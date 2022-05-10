@@ -1,5 +1,6 @@
 .produtos{
   width: 100%;
+  padding-top: 6vh;
 
   display: flex;
   flex-direction: column;
